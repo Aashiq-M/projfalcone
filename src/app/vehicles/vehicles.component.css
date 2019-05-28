@@ -1,0 +1,29 @@
+.veh-container
+{
+  border:1px solid gray;
+  width:fit-content;
+  border-bottom: 0;
+}
+
+.veh-item{
+  border-bottom: 1px solid lightslategrey;
+  padding:5px;
+  display: flex;
+}
+
+.veh-item:hover{
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
+.veh-name{
+  padding:0 5px 0 5px;
+}
+
+.veh-img{
+  width:15px;
+  height:15px;
+  border-radius: 15px;
+  border:1px solid yellowgreen;
+  display: inline-block;
+}
