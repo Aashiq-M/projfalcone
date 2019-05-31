@@ -1,16 +1,20 @@
 <div class="outercontainer">
-	<div class="planet">
-		<span class="label">Planet:</span>
-    <span class="name"></span>
-    <span class="close"></span>
-  </div>
-	<div class="vehicle">
-    <span class="label">Vehicle:</span>
-    <span class="name"></span>
-    <span class="close"></span>
-  </div>
-	<div class="time">
-    <span class="label">Time:</span>
-    <span class="name"></span>
-  </div>
+
+	{{oChoosenOnes|json}}
+
+	<div class="choosenones" *ngFor="let choosenone of oChoosenOnes">
+		<div class="choosenone">
+			<span class="planet">Planet:{{choosenone.planet}}</span>        
+      <app-reload></app-reload>
+    </div>
+
+    <div class="choosenone">
+      <span class="vehicle">Vehicle:{{choosenone.vehicle}}</span>    
+      <app-reload></app-reload>
+    </div>
+
+    <div class="choosenone">
+      <span class="time">Time:{{choosenone.time}}</span>          
+    </div>
+  </div>	
 </div>

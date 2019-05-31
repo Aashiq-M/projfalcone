@@ -72,3 +72,10 @@ export enum ErrorType {
   SUCCESS = 0,
   FAILED
 }
+
+
+export type ChoosenOne = {
+  planet: string;
+  vehicle: string;
+  time: number;
+}

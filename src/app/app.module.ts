@@ -9,10 +9,11 @@ import { HelloComponent } from './hello.component';
 import { GeekdataService } from './geekdata.service';
 import { VehiclesComponent } from './vehicles/vehicles.component';
 import { SummaryComponent } from './summary/summary.component';
+import { ReloadComponent } from './reload/reload.component';
 
 @NgModule({
   imports: [BrowserModule, HttpClientModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, VehiclesComponent, SummaryComponent],
+  declarations: [AppComponent, HelloComponent, VehiclesComponent, SummaryComponent, ReloadComponent],
   bootstrap: [AppComponent],
   providers: [GeekdataService]
 })
