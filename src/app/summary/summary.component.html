@@ -1,19 +1,16 @@
 <div class="outercontainer">
-
-	{{oChoosenOnes|json}}
-
 	<div class="choosenones" *ngFor="let choosenone of oChoosenOnes">
-		<div class="choosenone">
+		<div class="choosenplanet">
 			<span class="planet">Planet:{{choosenone.planet}}</span>        
-      <app-reload></app-reload>
+      <app-reload class="reload"></app-reload>
     </div>
 
-    <div class="choosenone">
+    <div class="choosenvehicle">
       <span class="vehicle">Vehicle:{{choosenone.vehicle}}</span>    
-      <app-reload></app-reload>
+      <span> <app-reload class="reload"></app-reload></span>
     </div>
 
-    <div class="choosenone">
+    <div class="choosentime">
       <span class="time">Time:{{choosenone.time}}</span>          
     </div>
   </div>	

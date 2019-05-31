@@ -1,4 +1,32 @@
-.close{
-  border: 1px solid grey;
-  border-radius: 7px;
+.reload{
+  padding-right:15px;
+}
+
+.outercontainer{
+  border:1px solid gray;
+  width:fit-content;
+  border-bottom: 0;
+}
+
+.choosenplanet{
+   padding: 5px;
+  
+  /* display: block; */
+}
+
+
+.choosenvehicle{
+  padding: 5px;
+}
+
+.choosentime{
+  padding: 5px;
+}
+
+.planet, .vehicle, .time{
+padding-right:15px;
+}
+
+.choosenones{
+  border-bottom: 1px solid lightslategrey;
 }
